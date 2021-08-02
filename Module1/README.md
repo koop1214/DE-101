@@ -9,7 +9,7 @@
 
 ![architecture](architecture.png)
 
-## [Аналитика в Excel](Superstore - Dashboard.xlsx)
+## Аналитика в Excel
 Используя данные [Sample - Superstore.xls](Sample - Superstore.xls) сделать:
 - Использовать Lookup
 - Построить Сводную таблицу
