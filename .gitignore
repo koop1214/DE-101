@@ -1,0 +1,7 @@
+# IDE
+*.ipr
+*.iws
+*.iml
+/dataSources
+.storage/
+/.ideaDataSources
