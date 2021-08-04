@@ -36,4 +36,11 @@
 - Business Layer
   * [ddl.sql](./2.4/ddl.sql)
   * [stg_to_dw.sql](./2.4/stg_to_dw.sql)
+              
+## 2.6: Как донести данные до бизнес-пользователя
+Необходимо создать дашборд в одном из решений (Google Data Studio, AWS QuickSight, Klipfolio). Данные должны быть в Postgres в AWS и вы сможете подключиться сервисом к БД и создать несколько отчетов.
+* [Дашборд в Google Data Studio с подключением к AWS RDS](https://datastudio.google.com/reporting/42e6beb3-9dcc-41e1-864e-b587995aca5a)
+
+![](./2.6/dashboard.png)
+
   
