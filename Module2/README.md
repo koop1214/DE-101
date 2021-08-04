@@ -8,10 +8,13 @@
 1. Необходимо нарисовать модель данных (Dimensional Model) для нашего файлика [Superstore](../Module1/Sample%20-%20Superstore.xls):
 
 - Концептуальную
+  
   ![](./2.4/conceptual_model.png)
 - Логическую
+  
   ![](./2.4/logic_model.png)
 - Физическую
+  
   ![](./2.4/physical_model.png)
   
 Вы можете использовать бесплатную версию [SqlDBM](https://sqldbm.com/Home/) или любой другой софт для создания моделей данных баз данных.
