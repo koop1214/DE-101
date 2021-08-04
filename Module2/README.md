@@ -21,3 +21,19 @@
 
 2. Сгенерировать [SQL-скрипт](./2.4/ddl.sql) с DDL командами создания таблиц фактов и измерений. 
 3. После создания таблиц, загрузить данные посредством `INSERT INTO SELECT` [запроса](./2.4/stg_to_dw.sql) из staging-таблиц.
+
+## 2.5: База данных в облаке
+
+1. Вам необходимо [создать учетную запись в AWS](https://github.com/Data-Learn/data-engineering/blob/master/how-to/How%20to%20create%20AWS%20Account.md).
+2. Используя сервис AWS Lightsail или [AWS RDS (смотрите инструкцию)](https://github.com/Data-Learn/data-engineering/blob/master/how-to/how_to_amazon_rds.md) создайте БД Postgres и активируйте **Public access**
+3. Подключитесь к новой БД через SQL клиент
+4. Загрузите данные из модуля 2.3 (Superstore dataset) в staging (схема БД `stg`) и загрузите dimensional model (схема `dw`):
+
+- Staging
+  * [people.sql](./2.3/stg/people.sql)
+  * [returns.sql](./2.3/stg/returns.sql)
+  * [orders.sql](./2.3/stg/orders.sql)
+- Business Layer
+  * [ddl.sql](./2.4/ddl.sql)
+  * [stg_to_dw.sql](./2.4/stg_to_dw.sql)
+  

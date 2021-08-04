@@ -10,8 +10,8 @@
 ![architecture](architecture.png)
 
 ## Аналитика в Excel
-Используя данные [Sample - Superstore.xls](Sample - Superstore.xls) сделать:
-- Использовать Lookup
+Используя данные [Sample - Superstore.xls](Sample%20-%20Superstore.xls):
+- Внедрить Lookup
 - Построить Сводную таблицу
 - Построить примеры отчетов
 - Создать дашборд
