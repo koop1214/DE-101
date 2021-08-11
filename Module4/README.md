@@ -10,7 +10,7 @@
     * [dim tables](./etl/dwh_dim.ktr)
 ![dim tables](./screenshots/dwh_dim.png)
   
-    * [dim tables](./etl/fact_table.ktr)
+    * [fact table](./etl/fact_table.ktr)
 ![dim tables](./screenshots/fact_table.png)
       
 Создайте общее [задание](./etl/stg_to_dwh.kjb) для выполнения всех трансформаций
