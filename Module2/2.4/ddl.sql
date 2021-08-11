@@ -100,13 +100,13 @@ CREATE TABLE dw.fact_sales
     profit        numeric(9, 4) NOT NULL,
     discount      numeric(3, 2) NOT NULL,
     CONSTRAINT pk_sales_fact PRIMARY KEY (id),
-    CONSTRAINT fact_sales_customer_id_fkey FOREIGN KEY (customer_id) REFERENCES dw.dim_customers (id),
-    CONSTRAINT fact_sales_location_id_fkey FOREIGN KEY (location_id) REFERENCES dw.dim_locations (id),
-    CONSTRAINT fact_sales_manager_id_fkey FOREIGN KEY (manager_id) REFERENCES dw.dim_managers (id),
-    CONSTRAINT fact_sales_order_date_id_fkey FOREIGN KEY (order_date_id) REFERENCES dw.dim_dates (id),
-    CONSTRAINT fact_sales_product_id_fkey FOREIGN KEY (product_id) REFERENCES dw.dim_products (id),
-    CONSTRAINT fact_sales_ship_date_id_fkey FOREIGN KEY (ship_date_id) REFERENCES dw.dim_dates (id),
-    CONSTRAINT fact_sales_ship_mode_id_fkey FOREIGN KEY (ship_mode_id) REFERENCES dw.dim_ship_modes (id)
+    CONSTRAINT fact_sales_customer_id_fkey FOREIGN KEY (customer_id) REFERENCES dw.dim_customers (id) ON DELETE CASCADE,
+    CONSTRAINT fact_sales_location_id_fkey FOREIGN KEY (location_id) REFERENCES dw.dim_locations (id) ON DELETE CASCADE,
+    CONSTRAINT fact_sales_manager_id_fkey FOREIGN KEY (manager_id) REFERENCES dw.dim_managers (id) ON DELETE CASCADE,
+    CONSTRAINT fact_sales_order_date_id_fkey FOREIGN KEY (order_date_id) REFERENCES dw.dim_dates (id) ON DELETE CASCADE,
+    CONSTRAINT fact_sales_product_id_fkey FOREIGN KEY (product_id) REFERENCES dw.dim_products (id) ON DELETE CASCADE,
+    CONSTRAINT fact_sales_ship_date_id_fkey FOREIGN KEY (ship_date_id) REFERENCES dw.dim_dates (id) ON DELETE CASCADE,
+    CONSTRAINT fact_sales_ship_mode_id_fkey FOREIGN KEY (ship_mode_id) REFERENCES dw.dim_ship_modes (id) ON DELETE CASCADE
 );
 
 CREATE INDEX fact_sales_customer_id_index ON dw.fact_sales (customer_id);
