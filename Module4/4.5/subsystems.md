@@ -4,7 +4,7 @@
 В Pentaho DI существует множество шагов для извлечения данных, вот лишь несколько из них:
 
 ### [CSV file input](https://help.hitachivantara.com/Documentation/Pentaho/9.1/Products/CSV_File_Input)
-![](https://files.mtstatic.com/site_7183/42852/0?Expires=1628778051&Signature=cYIsBov6uYGqFhtHTE4SvDPsYKGcpttbo-MZTqdJtGZQh56vMtBVXkxwvAs7pMJ9X2S~L2i7N1MfayZGzrzKJA9rIzljqGoMMWp4gCWjLu1KaMLQoqxXz7VVoO5-ojpzx5qfVdTpUlbA1qWchgsI~8YPHKWd5fVa96CYuWkUFIw_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
+![](https://help.hitachivantara.com/@api/deki/files/42852/GUID-6DEE31A4-57A4-4FBE-8EE2-7A6F30A82888-low.png?revision=1)
 
 Читает данные из текстовых файлов с разделителями. Есть возможность указать параметры парсинга (разделитель, кодировка и т.д.). Есть автоопределение полей (Get fields), а также возможность ручного описания полей.
 
